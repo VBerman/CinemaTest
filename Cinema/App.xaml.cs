@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cinema.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace Cinema
     /// </summary>
     public partial class App : Application
     {
+        public static Staff CurrentUser { get; set; }
     }
 }

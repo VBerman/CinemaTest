@@ -15,5 +15,7 @@ namespace Cinema
     public partial class App : Application
     {
         public static Staff CurrentUser { get; set; }
+
+        public static List<ReceiptService> Trash { get; set; } = new List<ReceiptService>();
     }
 }

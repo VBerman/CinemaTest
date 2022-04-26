@@ -39,7 +39,7 @@ namespace Cinema.Pages
             else
             {
                 App.CurrentUser = user;
-                NavigationService.Navigate(new MainMenu());
+                NavigationService.Navigate(new Pages.ChooseService());
             }
 
         }

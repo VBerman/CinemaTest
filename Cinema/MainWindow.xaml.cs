@@ -27,5 +27,10 @@ namespace Cinema
             InitializeComponent();
             MainFrame.Navigate(new Auth());
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.GoBack();
+        }
     }
 }

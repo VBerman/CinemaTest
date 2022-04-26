@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Label Grid.Row="0" HorizontalAlignment="Center" FontSize="28"> Cinema</Label>
         <StackPanel Orientation="Horizontal">
-            <Button Grid.Row="0">Назад</Button>
+            <Button Click="Button_Click" Grid.Row="0">Назад</Button>
             <Button Grid.Row="0">Вперед</Button>
             
         </StackPanel>
